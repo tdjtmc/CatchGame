@@ -7,14 +7,20 @@ import { RouterLink } from 'vue-router'
     <nav v-if="!$route.path.includes('/score-rush') && !$route.path.includes('/time-sprint')">
       <ul>
         <li>
-          <router-link to="/score-rush"
-            ><img src="../images/score-rush.png" class="image"
-          /></router-link>
+          <router-link to="/score-rush">
+            <div class="card">
+              <img src="../images/score-rush.png" alt="Score Rush" class="image" />
+              <span>Score Rush</span>
+            </div>
+          </router-link>
         </li>
         <li>
-          <router-link to="/time-sprint"
-            ><img src="../images/time-rush.png" class="image"
-          /></router-link>
+          <router-link to="/time-sprint">
+            <div class="card">
+              <img src="../images/time-rush.png" alt="Time Sprint" class="image" />
+              <span>Time Sprint</span>
+            </div>
+          </router-link>
         </li>
       </ul>
     </nav>
@@ -36,7 +42,20 @@ nav li {
 }
 
 .image {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fafafa;
+  text-align: center;
+  font-size: 2rem;
 }
 </style>
