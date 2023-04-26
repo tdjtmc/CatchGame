@@ -17,7 +17,7 @@ import { RouterLink } from 'vue-router'
         <li>
           <router-link to="/time-sprint">
             <div class="card">
-              <img src="../images/time-rush.png" alt="Time Sprint" class="image" />
+              <img src="../images/time-sprint.png" alt="Time Sprint" class="image" />
               <span>Time Sprint</span>
             </div>
           </router-link>
