@@ -67,11 +67,4 @@ h1 {
   user-select: none;
   text-transform: uppercase;
 }
-
-.button-caught {
-  background-color: #02a238;
-  width: 105px;
-  height: 65px;
-  font-size: 1rem;
-}
 </style>
