@@ -25,4 +25,4 @@ Setup Instructions
     Open the project folder in your terminal.
     Run the command npm install to install dependencies.
     Run the command npm run dev to start the development server.
-    Open your web browser and go to http://localhost:8080 to play the game.
+
